@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto&display=swap');
+
+
+.titulo {
+    color: #ffaa00;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paragrafo {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 100;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 16px;
+}
