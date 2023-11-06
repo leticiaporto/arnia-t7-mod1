@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo1 {
+    background-color: blueviolet;
+    margin: 1em;
+    padding: 2em;
+    border: 1px solid red;
+}

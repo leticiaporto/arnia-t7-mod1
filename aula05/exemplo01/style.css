@@ -1,0 +1,21 @@
+.conteudo1{
+    background-color: red;
+    width: 100px;
+    height: 200px;
+}
+
+.conteudo2 {
+    background-color: magenta;
+    width: 50%;
+}
+
+.conteudo3 {
+    background-color: green;
+    width: 50vw;
+    height: 100vh;
+}
+
+.conteudo4 {
+    background-color: blue;
+    width: 100%;
+}
