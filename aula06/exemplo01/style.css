@@ -1,0 +1,22 @@
+.image {
+    width: 80%;
+    box-shadow: 0px 1px 6px 10px #b4b4b457;
+}
+
+.backgroundUrl {
+    background-image: url('https://blog.fecap.br/wp-content/uploads/Fecap-programador.jpg');
+    width: 300px;
+    height: 300px;
+    color: red;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.backgroundUrl2 {
+    background-image: url('./dev2.jpg');
+    width: 500px;
+    height: 500px;
+    color: green;
+}
