@@ -15,7 +15,7 @@
 }
 
 .backgroundUrl2 {
-    background-image: url('./dev2.jpg');
+    background-image: url('dev2.jpg');
     width: 500px;
     height: 500px;
     color: green;
