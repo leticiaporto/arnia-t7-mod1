@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    width: 20%;
+    height: 200px;
+}
+
+.bloco1 {
+    background-color: red;
+}
+
+.bloco2 {
+    background-color: blue;
+}
+
+.bloco3 {
+    background-color: magenta;
+}
+
+.bloco4 {
+    background-color: green;
+}
+
+.bloco5 {
+    background-color: orange;
+}
+
+.bloco6 {
+    background-color: violet;
+}
+
+.bloco7 {
+    background-color: aqua;
+    align-self: flex-end;
+}
