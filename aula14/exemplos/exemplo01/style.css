@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+.paragrafo {
+    color: magenta;
+}
+
+.class1 {
+    background-color: aqua;
+}
+
+.class3.class1.class4.class2 {
+    background-color: green;
+}
+
+.container-lista li { /* atinge filhos indiretos */
+    color: red;
+}
+
+.lista > li { /* Pegue todos os elementos "li" ligados diretamente a classe lista e coloque fundo azul */
+    background-color: blue;
+}
+
+p.paragrafo1 { /* Pegue todos os paragrafos (tag p) que tenham a classe */
+    color: orange;
+}
+
+.paragrafo2, .paragrafo3 {
+    background-color: pink;
+} 
+
+section + p { /* pegue o paragrafo que está logo após uma section e deixe negrito */
+    font-weight: bold;
+    background-color: red;
+}
+
+section ~ p { /* todos os elementos p após a section */
+    font-size: 32px;
+    background-color: green;
+}
+

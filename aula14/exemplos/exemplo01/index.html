@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seletor por tag</h1>
+    <h2 id="subtitulo">Seletor por ID</h2>
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsa similique quo itaque nisi totam, excepturi blanditiis, maxime vel maiores ducimus harum? Unde totam tempora esse, nemo numquam fugit architecto?</p>
+
+    <div>
+        <h2>Mais de uma classe</h2>
+        <div class="class2 class3 class1 class4">
+            Classe 1 e classe 2
+        </div>
+        <div class="class1">Classe 1</div>
+        <div class="class2">Classe 2</div>
+    </div>
+
+    <div>
+        <h2>Descendência indireta</h2>
+        <div class="container-lista">
+            <ul>
+                <li>Teste 1</li>
+                <li>Teste 2</li>
+                <li>Teste 3</li>
+            </ul>
+            <div>
+                <ul>
+                    <li>pipipi</li>
+                    <li>popopo</li>
+                </ul>
+            </div>
+        </div>
+        <h2>Outra lista</h2>
+        <ul>
+            <li>123</li>
+            <li>456</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Descendência direta</h2>
+        <div class="container-lista">
+            <ul class="lista">
+                <li>Teste 1</li>
+                <li>Teste 2</li>
+                <li>Teste 3</li>
+            </ul>
+            <div>
+                <ul>
+                    <li>pipipi</li>
+                    <li>popopo</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2>Tag e classe</h2>
+
+        <section>Teste2</section>
+
+        <p class="paragrafo1">1. Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+
+        <p class="paragrafo1">1. Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+
+        <p class="paragrafo2">2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, amet.</p>
+
+        <p class="paragrafo3">3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, distinctio.</p>
+
+        <div class="paragrafo1">1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, officiis?</div>
+    </div>
+</body>
+</html>
