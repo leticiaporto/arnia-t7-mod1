@@ -8,7 +8,7 @@ for (let i = 0; i < 5; i++) {
     io.write(`Informe o ${i +1}º salário:`)
     const salario = io.readFloat()
 
-    ///somaSalarios = somaSalarios + salario
+    //somaSalarios = somaSalarios + salario
     somaSalarios += salario
 }
 
