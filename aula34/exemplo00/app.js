@@ -4,11 +4,6 @@ const privateKey = 'SUA_PRIVATE_KEY_AQUI'
 const hash = timestamp + privateKey + publicKey
 const hashMd5 = MD5.generate(hash)
 
+const promise = fetch(`https://gateway.marvel.com:443/v1/public/characters?apikey=${publicKey}&ts=${timestamp}&hash=${hashMd5}`)
 
-const buscarPersonagens = async () =>{
-  const resposta = await fetch(`https://gateway.marvel.com:443/v1/public/characters?apikey=${publicKey}&ts=${timestamp}&hash=${hashMd5}`)
-  const personagens = await resposta.json()
-  console.log(personagens)
-}
-
-buscarPersonagens()
+console.log(promise)
