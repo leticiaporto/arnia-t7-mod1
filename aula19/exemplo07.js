@@ -1,5 +1,6 @@
 const io = require('../io/io')
 
+/* Atribuindo resultado de um teste booleano à uma variável */
 const numero1 = 10
 const teste1 = numero1 > 5 //true
 
