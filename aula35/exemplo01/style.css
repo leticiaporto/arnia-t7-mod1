@@ -1,0 +1,16 @@
+.botao {
+    background-color: orangered;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.verde {
+    background-color: green;
+}
+
+.none {
+    display: none;
+}
