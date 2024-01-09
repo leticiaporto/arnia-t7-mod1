@@ -1,0 +1,20 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "titulo": "Titulo teste",
+            "descricao": "teste etste etste"
+        },        
+        {
+            "id": 2,
+            "titulo": "Titulo teste 2",
+            "descricao": "teste etste etste"
+        },        
+        {
+            "id": 3,
+            "titulo": "Titulo teste 3",
+            "descricao": "teste etste etste esteste"
+        }
+    ],
+    "users": []
+}
