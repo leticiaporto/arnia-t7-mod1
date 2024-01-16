@@ -1,22 +1,10 @@
 {
   "livros": [
     {
-      "titulo": "Teste 2024",
-      "autor": "Teste",
-      "anoLancamento": "1997",
-      "id": "cb69"
-    },
-    {
       "titulo": "O homem mais feliz da história",
       "autor": "Augusto Cury",
       "anoLancamento": "2002",
       "id": "0cf0"
-    },
-    {
-      "titulo": "Vendedor de Sonhos",
-      "autor": "Augusto Cury",
-      "anoLancamento": "2010",
-      "id": "498d"
     }
   ]
 }
