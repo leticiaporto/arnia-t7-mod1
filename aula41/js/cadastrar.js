@@ -37,5 +37,6 @@ formulario.addEventListener('submit', async (e) => {
     //chama a função de cadastro do livro passando como parametro o objeto
     await cadastrarLivro(objetoLivro)
 
+    //redirecionar para a tela de listagem 
     window.location = '../index.html'
 })

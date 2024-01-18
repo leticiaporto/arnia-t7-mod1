@@ -8,6 +8,11 @@ const excluirLivro = async (id) => {
     carregarDados()
 }
 
+//função que redireciona para a tela de edição, passando o id
+const editarLivro = (id) => {
+    window.location = `html/editar.html?id=${id}`
+}
+
 //função que busca os livros na API
 const getLivros = async () => {
     const dados = await fetch('http://localhost:3000/livros')
@@ -31,7 +36,7 @@ const mostrarLivros = (listaLivros) => {
                 <td>${livro.autor}</td>
                 <td>${livro.anoLancamento}</td>
                 <td>
-                    <a href="html/editar.html?id=${livro.id}">Editar</a>
+                    <button onclick="editarLivro('${livro.id}')">Editar</button>
                     <button onclick="excluirLivro('${livro.id}')">Excluir</button>
                 <td>
             </tr>
